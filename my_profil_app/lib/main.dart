@@ -72,9 +72,9 @@ class MyApp extends StatelessWidget{
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       children: [
-                        _buildItem("1.5k", "Takipçi"),
-                        _buildItem("2.5k", "Takip"),
-                        _buildItem('150', "Gönderi"),
+                        _buildItem("1.5k", "Followers"),
+                        _buildItem("2.5k", " Following"),
+                        _buildItem('150', "Posts"),
                         ],
                       ),
                   ),
@@ -85,18 +85,18 @@ class MyApp extends StatelessWidget{
                       padding: const EdgeInsets.all(16.0),
                       child: Column(
                         children: [
-                          Text("Hakkımda",
-                          style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
+                          Text(
+                            "About Me",
+                            style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
                           ),
                           ),
                           SizedBox(
                             height: 8,
                           ),
                           Text(
-                            'Flutter mobil geliştirmeyi seviyorum yeni teknolojiler öğrenmek'
-                            ' en büyük hobimdir',
+                            "I'm a Computer Science student who enjoys learning and growing in different fields.",
                           )
                         ],
                       ), 

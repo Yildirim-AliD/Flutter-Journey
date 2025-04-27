@@ -1,0 +1,2 @@
+C:/Users/yldrm/Desktop/Flutter-Journey/flutter_listeler_json_veri/android/app/.cxx/Debug/5cvt2i3n/x86/CMakeFiles/edit_cache.dir
+C:/Users/yldrm/Desktop/Flutter-Journey/flutter_listeler_json_veri/android/app/.cxx/Debug/5cvt2i3n/x86/CMakeFiles/rebuild_cache.dir

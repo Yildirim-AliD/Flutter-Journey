@@ -5,11 +5,14 @@ class BasicNavigation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final _args = ModalRoute.of(context)?.settings.arguments as Map;
     return Scaffold(
       appBar: AppBar(title: Text("Basic navigation")),
       body: Center(
         child: Column(
           children: [
+            Text(_args['id'].toString()),
+            Text(_args['isim'].toString()),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(

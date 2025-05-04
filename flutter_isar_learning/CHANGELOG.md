@@ -38,7 +38,7 @@
     ```diff
     ndkVersion = "27.0.12077973"
 ### ✅ 4. Gradle Plugin ve Kotlin versiyonları güncellendi
-    - **Dosya:**
+  - **Dosya:**
    `android/settings.gradle.kts`
 - **Değişiklik:**
     ```diff
